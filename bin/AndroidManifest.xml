@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.application.RSSFeeder"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="10" android:maxSdkVersion="10"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Splash"
+                  android:label="RSSFeeder">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Act1" 
+        android:label="Choose the category">
+        </activity>
+        <activity android:name="AboutPage" 
+        android:label="About">
+        </activity>
+        <activity android:name="NewsSettings"
+        android:label="News Settings"></activity>
+        
+        <activity android:name="SportsSettings"
+        android:label="Sports Settings"></activity>
+       
+        <activity android:name="EntertainmentSettings"
+        android:label="Entertainment Settings"></activity>
+       
+        <activity android:name="TravelSettings"
+        android:label="Travel Settings"></activity>
+       
+        <activity android:name="EducationSettings"
+        android:label="Education Settings"></activity>
+       
+        <activity android:name="CricketSettings"
+        android:label="Cricket Settings"></activity>
+       
+        <activity android:name="FeedDisplay"
+        android:label="Feed Display"></activity>
+        <service android:name="RSSFeederService"></service>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" /> 
+</manifest>

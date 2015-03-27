@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RSSFeeder</string>
+    <string name="newsurl">http://news.google.co.in/news?pz=1&amp;cf=all&amp;ned=in&amp;hl=en&amp;output=rss</string>
+    <string name="sportsurl">http://news.google.co.in/news?pz=1&amp;cf=all&amp;ned=in&amp;hl=en&amp;topic=s&amp;output=rss</string>
+    <string name="entertainmenturl">http://news.google.co.in/news?pz=1&amp;cf=all&amp;ned=in&amp;hl=en&amp;topic=w&amp;output=rss</string>
+    <string name="travelurl">http://news.google.co.in/news?pz=1&amp;cf=all&amp;ned=in&amp;hl=en&amp;topic=w&amp;output=rss</string>
+    <string name="educationurl">http://news.google.co.in/news?pz=1&amp;cf=all&amp;ned=in&amp;hl=en&amp;topic=b&amp;output=rss</string>
+    <string name="cricketurl">http://www.espncricinfo.com/rss/content/story/feeds/0.xml</string>
+</resources>
